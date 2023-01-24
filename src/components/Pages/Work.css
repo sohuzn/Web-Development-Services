@@ -1,0 +1,25 @@
+.work {
+    width: 80%;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.works h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+@media (max-width: 500px) {
+    .works h2 {
+        padding-bottom: 10px;
+    }
+    .work {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+}

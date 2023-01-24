@@ -1,0 +1,100 @@
+.about {
+    background-image: url('../assets/about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* height: 500px; */
+    overflow: hidden;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about h2 {
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about p {
+    padding-right: 800px;
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-left: 50px;
+}
+
+.about button {
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: #059862;
+    border-radius: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: 50px 0 50px 50px;
+    cursor: pointer;
+}
+
+
+
+/* responsive */
+@media (max-width: 1500px) {
+    .about p {
+        padding-right: 50%;
+    }
+}
+
+@media (max-width: 1205px) {
+    .about h2 {
+        font-size: 20px;
+    }
+
+    .about span {
+
+        font-size: 20px;
+    }
+
+    .about button {
+        font-size: 14px;
+        width: 120px;
+    }
+
+    .about p {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .about p {
+        padding-right: 35%;
+    }
+}
+
+@media (max-width: 500px) {
+    .about p {
+        padding-right: 30%;
+    }
+
+    .about h2 {
+        font-size: 17px;
+    }
+
+    .about span {
+
+        font-size: 17px;
+    }
+
+    .about button {
+        font-size: 14px;
+        width: 120px;
+        height: 40px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+}
